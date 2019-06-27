@@ -1,0 +1,32 @@
+.search-area{
+    text-align: center;
+    width:80%;
+    background-color: #f9f9f9;
+    color:rgb(170,171,174);
+    position:fixed;
+    margin-left:5vw;
+    opacity: 1;
+    
+}
+input{
+    outline:none;
+    color:rgb(170,171,174);
+
+}
+.search{
+    width:50%;
+    text-align:center;
+    border:none;
+    border-radius: 5%;
+    background-color: rgb(228, 229, 230);
+}
+
+.search-info{
+    margin:3vw;
+    text-align: left
+}
+.result-img{
+    width:5vw;
+    height:5vw;
+    border-radius:5%;
+}

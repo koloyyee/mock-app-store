@@ -1,0 +1,49 @@
+.top-grossing-section{
+  margin-right:-5vw;
+  text-align:left;
+  padding-top:5vw;
+}
+
+h2{
+  margin-left: 10vw;
+}
+.top-grossing {
+    display: flex;
+    align-content: flex-start;
+    width: 100vw;
+    overflow-x: auto;
+    padding:5vw;
+}
+
+.top-grossing > * {
+    grid-column: 2 / -2;
+  }
+  
+.top-grossing > .full {
+    grid-column: 1 / -1;
+  }
+  
+
+.horizontal{
+    display:grid;
+    grid-gap:calc(20px /2);
+    grid-template-columns:repeat(6,calc(50%- 20px*2));
+    scroll-snap-type: x proximity;
+    margin: 0vw 1vw 0vw 1vw;
+}
+
+.image {
+    border-radius: 10%;
+    padding:0;
+    margin: 0;
+}
+
+
+.app-name{
+  font-size:0.9rem;
+}
+
+.genre{
+  font-size: 0.8rem;
+  color:rgb(170,171,174);
+}
