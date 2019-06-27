@@ -3,7 +3,7 @@ import './css/TopFree.css'
 import {connect} from 'react-redux'
 import {loadDataThunk} from '../redux/thunk'
 import StarRatings from 'react-star-ratings';
-import loading from '../gif/loading.gif'
+import loading from '../icons/loading.gif'
 
 class TopFree extends React.Component{
 
