@@ -35,14 +35,6 @@ const getApps = async(section, num) => {
     return await Promise.all(infos);
 }
 
-// let top = [];
-// let grossing=[];
-
-// (async () => {
-//   top = await getApps("top-free", 10)
-//   grossing = await getApps("top-grossing", 10)
-// })()
-
 
 const PORT = process.env.PORT || 8000
 app.listen(PORT, ()=>{console.log( `localhost:${8000}`)})
