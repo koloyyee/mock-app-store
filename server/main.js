@@ -31,7 +31,6 @@ const getApps = async(section, num) => {
         return { trackName, genres:genres[0], averageUserRating, userRatingCount, artworkUrl100 }
     })
 
-    console.log(await Promise.all(infos))
     return await Promise.all(infos);
 }
 
