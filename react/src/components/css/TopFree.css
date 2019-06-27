@@ -4,10 +4,13 @@
 .vertical{
     display:flex;
     flex-direction: row;
-    border-bottom: 1px gray solid;
+    border-bottom: 1px  rgb(244,244,244) solid;
     margin: 1vw;
     padding: 2vw;
 
+}
+.count{
+    color: rgb(135,135,135)
 }
 .app-img{
     margin: 2vw;
