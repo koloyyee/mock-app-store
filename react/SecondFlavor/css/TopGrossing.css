@@ -2,29 +2,28 @@
   text-align:left;
   position: sticky;
   position: -webkit-sticky;
-  top: 1rem;
+  top: 0;
   background-color:white;
   overflow:visible;
   z-index:1;
   padding-top: 0.5vw ;
   margin-bottom:0.5vw;
-  border-bottom: 1px solid rgb(244,244,244);
-  overflow-x: auto;
-  display: flex;
-  width: 100vw;
+  border-bottom: 1px solid rgb(244,244,244)
 
 }
 
 h2{
   margin-left: 5vw;
 }
-h2{
-  padding: 0;
+.top-grossing {
+    display: flex;
+    align-content: flex-start;
+    width: 100vw;
+    overflow-x: auto;
 }
 
 .top-grossing > * {
     grid-column: 2 / -2;
-    padding: 1vw;
   }
   
 .top-grossing > .full {

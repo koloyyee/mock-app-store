@@ -1,6 +1,6 @@
 .search-area{
     text-align: center;
-    widows: 60%;
+    width:80%;
     background-color: #f9f9f9;
     color:rgb(170,171,174);
     margin-left:5vw;
@@ -10,20 +10,17 @@
     top: 0;
     z-index:100;
     margin-bottom:1vw;
-    padding:0.5vw;
-
 }
 input{
-   
     outline:none;
     color:rgb(170,171,174);
 
 }
 .search{
-    width:95%;
+    width:50%;
     text-align:center;
     border:none;
-    border-radius: 2%;
+    border-radius: 5%;
     background-color: rgb(228, 229, 230);
 }
 
