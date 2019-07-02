@@ -9,9 +9,9 @@ Task:
 3. An instant search.
 
 ```
-git clone https://gitlab.com/koloyyee/ios-app 
+git clone https://github.com/koloyyee/mock-app-store.git 
  // or
-git clone git@gitlab.com:koloyyee/ios-app.git 
+git clone git@github.com:koloyyee/mock-app-store.git
 
 cd react 
 yarn install
