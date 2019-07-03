@@ -1,7 +1,7 @@
 {
   "name": "ios-app-ranking",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "algoliasearch": "^3.33.0",
     "axios": "^0.19.0",
