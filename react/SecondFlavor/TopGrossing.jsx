@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux'
 import './css/TopGrossing.css'
-import {loadDataThunk} from '../redux/thunk'
+import {loadDataThunk} from '../src/redux/thunk'
 
 class TopGrossing extends React.Component{
 

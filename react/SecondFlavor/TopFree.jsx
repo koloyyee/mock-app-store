@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/TopFree.css'
 import {connect} from 'react-redux'
-import {loadDataThunk} from '../redux/thunk'
+import {loadDataThunk} from '../src/redux/thunk'
 import StarRatings from 'react-star-ratings';
 import loading from '../icons/loading.gif'
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { FaSistrix } from 'react-icons/fa'
 import './css/Search.css'
 import { connect } from 'react-redux'
-import { loadDataThunk } from '../redux/thunk'
+import { loadDataThunk } from '../src/redux/thunk'
 
 
 class Search extends React.Component {

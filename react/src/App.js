@@ -1,23 +1,20 @@
 import React,{Suspense} from 'react';
-import Search from './components/Search'
-import TopGrossing from './components/TopGrossing'
 import store from './store'
 import {Provider} from 'react-redux'
+import loading from '../src/icons/loading.gif'
 
-const TopFree = React.lazy(() => import('./components/TopFree'));
+
+const Main = React.lazy(() => import('./components/Main.jsx'));
 
 function App() {
   return (
     <Provider store={store}>
-      <div className="App" >
-        <Search />
-        <TopGrossing />
-        <Suspense fallback={<div> loading </div>}>
-          <TopFree />
+      <div className="App" >    
+        <Suspense fallback={ <img id ="loading-app" src={loading} alt="loading..." />}>
+          <Main />
         </Suspense>
       </div>
     </Provider>
   );
 }
-
 export default App;
