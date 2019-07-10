@@ -15,9 +15,12 @@ git clone git@github.com:koloyyee/mock-app-store.git
 
 cd react 
 yarn install
-yarn start
 
 cd server
 yarn install
-yarn node-dev main.js
+
+To run the program in one command please use the follow command:
+cd react
+yarn run dev
+
 ```
