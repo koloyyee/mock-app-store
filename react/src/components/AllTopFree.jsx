@@ -9,7 +9,7 @@ const TopFreeList = ({ items, loadMoreItems, hasNextPage }) => {
   const isItemLoaded = index => !hasNextPage || index < items.length;
   const Row = ({ index }) => (
     <div>
-      {!isItemLoaded(index) ? (
+      {!isItemLoaded(index)? (
         <img id="loading-app" src={loading} alt="loading..." />
       ) : (
         items.map((app, i) => {
